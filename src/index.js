@@ -11,4 +11,4 @@ server.use(endpoints)
 
 
 
-server.listen(process.env.PORT , () => console.log(`API CONECTADA NA PORTA ${process.env.PORT}`));
+server.listen(process.env.MYSQL_PORT , () => console.log(`API CONECTADA NA PORTA ${process.env.MYSQL_PORT}`));
