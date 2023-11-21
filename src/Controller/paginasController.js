@@ -24,7 +24,6 @@ endpoints.post('/adm', async (req, resp) => {
 
   const {email , senha} =req.body;
 
-  
 
   let r = await CadastroAdm(email , senha);
 
@@ -68,10 +67,6 @@ try{
 endpoints.post('/cadastrocliente', async (req,resp) => {
 
 try {
-    
-
-
-
   let pessoa = req.body;
 
 
