@@ -12,7 +12,7 @@ export async function Login (email , senha) {
                           ds_senha = ? `
 
    let r = await conexao.query(comando , [email ,senha])
-
+   console.log(r[0])
    return r[0];
     
 }

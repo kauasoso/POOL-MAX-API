@@ -50,7 +50,7 @@ try{
   
 
     let r = await Login(email , senha);
-
+  console.log(r);
     if (r.length === 0)
     throw new Error('Credenciais Inválidas')
 
